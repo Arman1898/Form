@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 1140px;
+	margin: 0px auto;
+}
+.form{
+	height: 100vh;
+	background: #76E2E9;
+
+}
+.form-box{
+	width: 80%;
+	height: 470px;
+	margin: 0px auto;
+	display: flex;
+	padding: 70px;
+}
+.form-left{
+	flex-basis: 40%;
+	background: #3686BD;
+	padding: 40px;
+}
+
+.form-left h3{
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	font-size: 30px;
+
+}
+.form-left p{
+	font-family: 'Poppins', sans-serif;
+	color: white;
+	padding-top: 20px;
+
+}
+.form-left p span{
+	padding-top: 15px;
+}
+.btn{
+	padding-top: 38px;
+	
+}
+.btn button{
+	border: none;
+    line-height: 36px;
+    padding: 0 30px;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    transition: 0.5s;
+   
+}
+.btn button:hover{
+	transform: translateY(5px);
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.form-right{
+	flex-basis: 40%;
+	background: white;
+	padding: 40px;
+}
+.form-right h3{
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+	color: #3C86BB;
+	font-size: 30px;
+}
+
+
+
+
+
+
+.input1{
+	display: flex;
+	margin-top: 15px;
+	margin-bottom: 23px;
+	font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #a0a0a0;
+
+}
+.n1{
+	flex-basis: 50%;
+	
+}
+.n2{
+	flex-basis: 50%;
+}
+
+.input2{
+	margin-top: 23px;
+	font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #a0a0a0;
+}
+.input2 input{
+	width: 95%;
+	
+}
+.input3{
+	display: flex;
+	margin-top: 23px;
+	margin-bottom: 7px;
+	font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #a0a0a0;
+	
+}
+
+
+
+.pass{
+	flex-basis: 50%;
+	
+}
+.pass-con{
+	flex-basis: 50%;
+}
+
+.btn-right{
+	margin: 53px 0 0 0;
+}
+.btn-right button{
+	border: none;
+    line-height: 36px;
+    padding: 0 60px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    background: #3686BD;
+    text-decoration-color: white;
+    transition: 0.5s;
+}
+
+.btn-right button:hover{
+	transform: translateY(5px);
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.btn-right button p{
+	color: white;
+}
+form input{
+	padding: 6px;
+	margin: 2px;
+	border-color: 1px solid #ffffff;
+	outline: none;
+}
+
+
+
